@@ -1,0 +1,12 @@
+div{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation-name: cox;
+	animation-duration: 5s;
+}
+@keyframes cox {
+	0%{background-color: red;}
+	50%{background-color: yellow;}
+	100%{background-color: red;}
+}

@@ -1,0 +1,187 @@
+*,body{
+	margin:0;
+	padding:0;
+}
+body,html{
+	font-family:'Poppins', sans serif;
+	height:100%;
+	width:100%;
+}
+header{
+	
+	width:100%;
+	height:100px;
+	color:white;
+	background:#8b0000;
+	align-items:center;
+	justify-content:left;
+	display:flex;
+    padding-right: 10px;
+	float:right;
+}
+a.btn{
+	text-decoration:none;
+	padding: 5px 5px;
+}
+.primary{
+	justify-content:center;
+	width:120px;
+	height:20px;
+	border-radius:5px;
+    color:black;
+	cursor:pointer;
+	text-align:center;
+	align-items:center;
+	vertical-align:baseline;
+	margin:10px;
+	border:2px solid indianred;
+	background-color: lightpink;
+	animation-name:top;
+	animation-duration:1.8s;
+	transition:0.2s;
+	box-shadow:2px 4px 6px indianred;
+}
+@keyframes top{
+	0%{background-color:white}
+	50%{background-color:#ff7a8e}
+	100%{background-color:lightpink}
+}
+.primary:hover{
+	background:#ff7086;
+	color:black;
+}
+.primary:active{
+	background:indianred;
+	color:white;
+}
+.bottom{
+	width:100%;
+	height:70px;
+	color:white;
+	background:#8b0000;
+	align-items:center;
+	justify-content:center;
+}
+.logo{
+	padding: 20px;
+}
+.butoane{
+	justify-content: right;
+}
+.container{
+	background-color:darksalmon;
+}
+.socialinstagram{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialfacebook{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialyoutube{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialdiscord{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.black{
+	border:1px solid black;
+}
+.instaspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#833ab4;
+	align-items:center;
+	background-image: linear-gradient(to right, yellow , pink, purple);
+
+}
+.facebookspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#6495ED;
+	align-items:center;
+}
+.youtubespace{
+	display:flex;
+	padding-left:40%;
+	background-color:#DC143C;
+	align-items:center;
+}
+.discordspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#ADD8E6;
+	align-items:center;
+}
+.marime{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:80px;
+}
+.marimed{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:30px;
+}
+.marimef{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:60px;
+}
+.faces{
+	height:40px;
+	width:40x;
+	padding:5px;
+}
+.phf{
+	width: 688px;
+	height: 384px;
+}
+.pybrowser{
+	width: 661px;
+	height: 103px;
+}
+.bob{
+	height:250px;
+	width:250px;
+}
+.bobanimation{
+	padding:20px;
+}
+.bobbuttons{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:30px;
+	height:5px;
+	transition:0.2s;
+	background-color:lightpink;
+	border:2px solid indianred;
+	border-radius:5px;
+}
+.bobbuttons:hover{
+	background:#ff7086;
+	color:black;
+}
+.bobbuttons:active{
+	background:indianred;
+	color:white;
+}
+.bobcenter{
+	width:100%;
+	height:100px;
+
+}
+.background{
+	background-color:darksalmon;
+}

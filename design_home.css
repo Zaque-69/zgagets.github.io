@@ -1,0 +1,146 @@
+*,body{
+	margin:0;
+	padding:0;
+}
+body,html{
+	font-family:'Poppins', sans serif;
+	height:100%;
+	width:100%;
+}
+header{
+	
+	width:100%;
+	height:100px;
+	background:#aaaf33;
+	align-items:center;
+	display:flex;
+	float: right;
+    padding-right: 10px;
+}
+a.btn{
+	text-decoration:none;
+	padding: 5px 5px;
+	float: right;
+}
+.primary{
+	justify-content:center;
+	width:120px;
+	height:20px;
+	border-radius:5px;
+    color:black;
+	text-align:center;
+	cursor:pointer;
+	align-items:center;
+	margin:10px;
+	border:2px solid darkolivegreen;
+	background-color: #f0ff6b;
+	transition:0.2s;
+	animation-name: top;
+	animation-duration:1.8s;
+	box-shadow:2px 4px 6px darkolivegreen;
+}
+@keyframes top{
+	0%{background-color:white}
+	50%{background-color:#f6ffa6}
+	100%{background-color:#f0ff6b}
+}
+.primary:hover{
+	background:#cae100;
+	color:black;
+}
+.primary:active{
+	background:darkolivegreen;
+	color:white;
+}
+.bottom{
+	
+	width:100%;
+	height:60px;
+	color:white;
+	background:#aaaf33;
+	align-items:center;
+	display:flex;
+	justify-content:center;
+}
+.logo{
+	padding: 20px;
+}
+.butoane{
+	justify-content: right;
+}
+.container{
+	background-color:khaki;
+}
+.socialinstagram{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialfacebook{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialyoutube{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.socialdiscord{
+	width:50px;
+	height:50px;
+	padding: 5px 5px;
+}
+.black{
+	border:1px solid black;
+}
+.instaspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#833ab4;
+	align-items:center;
+	background-image: linear-gradient(to right, yellow , pink, purple);
+	}
+.facebookspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#6495ED;
+	align-items:center;
+}
+.youtubespace{
+	display:flex;
+	padding-left:40%;
+	background-color:#DC143C;
+	align-items:center;
+}
+.discordspace{
+	display:flex;
+	padding-left:40%;
+	background-color:#ADD8E6;
+	align-items:center;
+}
+.marime{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:80px;
+}
+.marimed{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:30px;
+}
+.marimef{
+	display:flex;
+	padding-left:0;
+	width:140px;
+	height:60px;
+}
+.bob{
+	height:90px;
+	width:90px;
+}
+.paddindbob{
+	padding-left:25%;
+}
